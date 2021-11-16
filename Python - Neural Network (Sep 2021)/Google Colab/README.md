@@ -2,7 +2,7 @@ HDB Resale Flat Valuation (Singapore)
 
 
 **Program and Goal**
-This program aimed to predict the potential selling price of a HDB resale flat based on previous transaction data. Data were first preprocessed and features were engineered to improve the performance of the model. The prediction on a new "unseen" data on PropertyGuru.com produced a prediction within 14.5% of the listing price.
+This program aimed to predict the potential selling price of a HDB resale flat based on previous transaction data. 
 
 
 **The Data**
@@ -24,7 +24,8 @@ The dataset from HDB comes as a CSV file with the following information columns:
 	"resale_price"	    - The price of the unit transacted.
 
 **Structure & Approach**
-This program was structured with 6 sections listed below. We first checked if there were any null values that needed to be addressed. We then seeked to convert all qualitative values to numeric either by one-hot or categorical encoding. Dates were converted to date types and details (months and years) were extracted as numbers. Collinearity of variables were checked and dropped and variables with excessive unique values were also dropped. We first explored the data to get to know the integrity and quality of the dataset. We then feature engineered the dataset, pre-processing the data for the regression. We then created a 5-layer Deep Neural Network model and fit the model to the dataset. We then evaluated and computed the resultant metrics. A prediction was also made with the trained model with a totally new dataset obtained from the internet.   
+
+<SECTION_UPDATED> See updated data processing and feature engineering in the lastest R modelling on the same project. <SECTION_UPDATED>  
 
 Section 1 : Explore Data 
 Section 2 : Feature Engineering
