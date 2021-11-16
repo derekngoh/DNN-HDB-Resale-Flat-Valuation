@@ -1,6 +1,12 @@
 HDB Resale Flat Valuation (Singapore)
 
 
+	UPDATES: 
+	See R version of this project for updated data process, 
+	feature engineering and additional machine learning techniques. 
+	(Nov 2021)
+
+
 **Program and Goal**
 This program aimed to predict the potential selling price of a HDB resale flat based on previous transaction data. 
 
